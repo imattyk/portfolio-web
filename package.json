@@ -4,10 +4,7 @@
   "description": "A website for video and photo portfolio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon app.js",
-    "client": "cd client && npm start",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +18,7 @@
   },
   "homepage": "https://github.com/imattyk/mk-productions#readme",
   "dependencies": {
-    "concurrently": "^7.0.0",
     "dotenv": "^14.2.0",
-    "ejs": "^3.1.6",
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
