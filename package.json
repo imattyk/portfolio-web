@@ -1,0 +1,29 @@
+{
+  "name": "mk-productions",
+  "version": "1.0.0",
+  "description": "A website for video and photo portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imattyk/mk-productions.git"
+  },
+  "keywords": [],
+  "author": "matej.komlosi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imattyk/mk-productions/issues"
+  },
+  "homepage": "https://github.com/imattyk/mk-productions#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
