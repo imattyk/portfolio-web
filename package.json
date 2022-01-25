@@ -1,5 +1,5 @@
 {
-  "name": "mk-productions",
+  "name": "portfolio-web",
   "version": "1.0.0",
   "description": "A website for video and photo portfolio.",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imattyk/mk-productions.git"
+    "url": "git+https://github.com/imattyk/portfolio-web.git"
   },
   "keywords": [],
   "author": "matej.komlosi@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imattyk/mk-productions/issues"
+    "url": "https://github.com/imattyk/portfolio-web/issues"
   },
-  "homepage": "https://github.com/imattyk/mk-productions#readme",
+  "homepage": "https://github.com/imattyk/portfolio-web#readme",
   "dependencies": {
     "dotenv": "^14.2.0",
     "express": "^4.17.2",

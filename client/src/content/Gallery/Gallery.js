@@ -1,7 +1,7 @@
 import React from "react";
 
-const RepoPage = () => {
-  return <div>Gallery nice pictures everywhere</div>;
+const Gallery = () => {
+  return <div>Galeria s krasnymi videjkami bude tu</div>;
 };
 
-export default RepoPage;
+export default Gallery;

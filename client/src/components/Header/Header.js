@@ -16,12 +16,9 @@ import {
 } from "carbon-components-react";
 
 import {
-  AppSwitcher20,
   LogoInstagram32,
   LogoLinkedin32,
   LogoYoutube32,
-  Notification20,
-  UserAvatar20,
 } from "@carbon/icons-react";
 
 const TutorialHeader = () => (
@@ -30,16 +27,21 @@ const TutorialHeader = () => (
       <Header aria-label="Portfolio webpage">
         <SkipToContent />
         <HeaderMenuButton
-          aria-label="Open menu"
+          aria-label="Otvoriť menu"
           onClick={onClickSideNavExpand}
           isActive={isSideNavExpanded}
         />
         <HeaderName element={Link} to="/" prefix="Portfolio">
           Matej Komlosi
         </HeaderName>
-        <HeaderMenuItem element={Link} to="/gallery">
-          Galéria
-        </HeaderMenuItem>
+        <HeaderNavigation aria-label="Navigácia">
+          <HeaderMenuItem element={Link} to="/gallery">
+            Galéria
+          </HeaderMenuItem>
+          <HeaderMenuItem element={Link} to="/contact">
+            Kontakt
+          </HeaderMenuItem>
+        </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
           expanded={isSideNavExpanded}
@@ -47,7 +49,14 @@ const TutorialHeader = () => (
         >
           <SideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem href="/repos">Repositories</HeaderMenuItem>
+              <HeaderMenuItem element={Link} to="/gallery">
+                Galéria
+              </HeaderMenuItem>
+            </HeaderSideNavItems>
+            <HeaderSideNavItems>
+              <HeaderMenuItem element={Link} to="/contact">
+                Kontakt
+              </HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>
