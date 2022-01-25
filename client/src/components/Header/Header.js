@@ -24,7 +24,10 @@ import {
 const TutorialHeader = () => (
   <HeaderContainer
     render={({ isSideNavExpanded, onClickSideNavExpand }) => (
-      <Header aria-label="Portfolio webpage">
+      <Header
+        aria-label="Portfolio webpage"
+        onClick={isSideNavExpanded === true ? onClickSideNavExpand : null}
+      >
         <SkipToContent />
         <HeaderMenuButton
           aria-label="Otvoriť menu"
