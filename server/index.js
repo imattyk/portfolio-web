@@ -11,7 +11,7 @@ app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 //Redirect to https
 app.use(function (request, response, next) {
-  if (process.env.NODE_ENV === "dev" && !request.secure) {
+  if (process.env.NODE_ENV != "dev" && !request.secure) {
     return response.redirect("https://" + request.headers.host + request.url);
   }
   next();
