@@ -2,14 +2,14 @@ import React from "react";
 import "./App.scss";
 import { Content } from "carbon-components-react";
 import Header from "./components/Header";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./content/LandingPage";
 import Gallery from "./content/Gallery";
 import Contact from "./content/Contact";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
       <Content>
         <Switch>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </Content>
-    </>
+    </Router>
   );
 }
 
