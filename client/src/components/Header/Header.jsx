@@ -41,8 +41,8 @@ const TutorialHeader = () => (
           <HeaderMenuItem element={Link} to="/gallery">
             Galéria
           </HeaderMenuItem>
-          <HeaderMenuItem element={Link} to="/contact">
-            Kontakt
+          <HeaderMenuItem element={Link} to="/testPage">
+            Test Page
           </HeaderMenuItem>
         </HeaderNavigation>
         <SideNav
@@ -57,8 +57,8 @@ const TutorialHeader = () => (
               </HeaderMenuItem>
             </HeaderSideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem element={Link} to="/contact">
-                Kontakt
+              <HeaderMenuItem element={Link} to="/testPage">
+                Test Page
               </HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>

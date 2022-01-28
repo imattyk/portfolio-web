@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class Gallery extends Component {
+class TestPage extends Component {
   render() {
     return (
       <>
-        <h1>Galeria bude tuto.</h1>
+        <h1>Hello world</h1>
       </>
     );
   }
 }
 
-export default Gallery;
+export default TestPage;
