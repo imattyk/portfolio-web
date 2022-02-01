@@ -16,13 +16,13 @@ function App() {
     <HttpsRedirect>
       <Theme>
         <Layout>
-          {/* <Section grid> */}
-          <Hero />
-          {/* <BgAnimation /> */}
-          {/* </Section> */}
-          <Projects />
-          <Technologies />
+          <Section grid>
+            <Hero />
+            <BgAnimation />
+          </Section>
           <Timeline />
+          <Technologies />
+          <Projects />
           <Acomplishments />
         </Layout>
       </Theme>
