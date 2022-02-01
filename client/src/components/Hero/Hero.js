@@ -15,9 +15,8 @@ const Hero = () => (
         Vitaj na mojom <br /> Video Portfóliu.
       </SectionTitle>
       <SectionText>
-        Ahoj, volám sa Matej Komlóši a toto je moja cesta tvorbou videi. Nájdeš
-        tu na jednom mieste všetky projekty na ktorých som sa podielal. Ak máš
-        záujem o spoluprácu, neváhaj ma kontaktovať.
+        Čau. Volám sa Matej Komlóši a rád točím videá. Pozri dole moju tvorbu a
+        ak máš záujem spolupracovať kľudne napíš.
       </SectionText>
       <Button onClick={() => (window.location = "https://google.com")}>
         Kontakt
