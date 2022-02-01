@@ -18,9 +18,12 @@ function App() {
       <Theme>
         <Layout>
           <video
+            playsinline
             autoPlay
+            autobuffer
             loop
             muted
+            poster="images/kapela_dora.png"
             style={{
               position: "absolute",
               width: "100%",
