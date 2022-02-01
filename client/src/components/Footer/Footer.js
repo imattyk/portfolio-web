@@ -38,15 +38,17 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Teším sa na spoluprácu.</Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://www.instagram.com/matt_kom/">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/matej-komlosi/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.youtube.com/channel/UC9d5lEPkqzB381t2uoH3ffQ">
-          <AiFillYoutube size="3rem" />
-        </SocialIcons>
+        <SocialContainer>
+          <SocialIcons href="https://www.instagram.com/matt_kom/">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/matej-komlosi/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.youtube.com/channel/UC9d5lEPkqzB381t2uoH3ffQ">
+            <AiFillYoutube size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );
