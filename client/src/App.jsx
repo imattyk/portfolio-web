@@ -18,10 +18,11 @@ function App() {
       <Theme>
         <Layout>
           <video
-            playsinline
             autoPlay
+            preload="auto"
             loop
             muted
+            id="bg_video"
             poster="images/placeholder_bg.png"
             style={{
               position: "absolute",
