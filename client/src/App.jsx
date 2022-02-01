@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Technologies from "./components/Technologies/Technologies";
 import Timeline from "./components/TimeLine/TimeLine";
 import { Layout } from "./layout/Layout";
-import { Section } from "./styles/GlobalComponents";
+import { Section, SectionDivider } from "./styles/GlobalComponents";
 import Acomplishments from "./components/Acomplishments/Acomplishments";
 import BgAnimation from "./components/BackgrooundAnimation/BackgroundAnimation";
 import DoraVideo from "./components/Video/web_background_1.mp4";
@@ -39,6 +39,7 @@ function App() {
           <Section grid>
             <Hero />
             <BgAnimation />
+            <SectionDivider />
           </Section>
           <Timeline />
           <Technologies />
