@@ -20,7 +20,6 @@ function App() {
           <video
             playsinline
             autoPlay
-            autobuffer
             loop
             muted
             poster="images/placeholder_bg.png"
