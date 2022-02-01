@@ -1,5 +1,10 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -15,7 +20,36 @@ import {
 } from "./FooterStyles";
 
 const Footer = () => {
-  return <div></div>;
+  return (
+    <FooterWrapper>
+      <LinkList>
+        {/* <LinkColumn>
+          <LinkTitle>Zavolaj</LinkTitle>
+          <LinkItem href="tel:+421917579691">+421 917 579 691</LinkItem>
+        </LinkColumn> */}
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:matej.komlosi@gmail.com">
+            matej.komlosi@gmail.com
+          </LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Teším sa na spoluprácu.</Slogan>
+        </CompanyContainer>
+        <SocialIcons href="https://www.instagram.com/matt_kom/">
+          <AiFillInstagram size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/matej-komlosi/">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.youtube.com/channel/UC9d5lEPkqzB381t2uoH3ffQ">
+          <AiFillYoutube size="3rem" />
+        </SocialIcons>
+      </SocialIconsContainer>
+    </FooterWrapper>
+  );
 };
 
 export default Footer;
