@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import React from "react";
 import {
   AiFillGithub,
@@ -15,33 +15,34 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container style={{ alignItems: "center" }}>
     <Div1>
-      <Link to="/">
+      <HashLink to="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <img src="/images/logo_mk_white.png" width="40" height="25" />{" "}
-          <span>Video portfolio</span>
+          <Span>VideoPortfolio</Span>
         </a>
-      </Link>
+      </HashLink>
     </Div1>
     <Div2>
       <li>
-        <Link to="#project">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <a href="#bio">
+          <NavLink>Bio</NavLink>
+        </a>
       </li>
       <li>
-        <Link to="#gear">
-          <NavLink>Gear</NavLink>
-        </Link>
+        <a href="#gear">
+          <NavLink>Výbava</NavLink>
+        </a>
       </li>
       <li>
-        <Link to="#aboutme">
-          <NavLink>AboutMe</NavLink>
-        </Link>
+        <a href="#projects">
+          <NavLink>Projekty</NavLink>
+        </a>
       </li>
     </Div2>
     <Div3>
