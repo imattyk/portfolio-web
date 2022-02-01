@@ -23,7 +23,7 @@ function App() {
             autobuffer
             loop
             muted
-            poster="images/kapela_dora.png"
+            poster="images/placeholder_bg.png"
             style={{
               position: "absolute",
               width: "100%",
