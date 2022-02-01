@@ -1,24 +1,31 @@
 import React from "react";
 import "./App.scss";
-import { Content } from "carbon-components-react";
-import Header from "./components/Header";
-import { Route, Switch } from "react-router-dom";
-import LandingPage from "./content/LandingPage";
-import Gallery from "./content/Gallery";
-import TestPage from "./content/TestPage";
 import HttpsRedirect from "react-https-redirect";
+import Theme from "./styles/theme";
+import Hero from "./components/Hero/Hero";
+import Projects from "./components/Projects/Projects";
+import Technologies from "./components/Technologies/Technologies";
+import Timeline from "./components/TimeLine/TimeLine";
+import { Layout } from "./layout/Layout";
+import { Section } from "./styles/GlobalComponents";
+import Acomplishments from "./components/Acomplishments/Acomplishments";
+import BgAnimation from "./components/BackgrooundAnimation/BackgroundAnimation";
 
 function App() {
   return (
     <HttpsRedirect>
-      <Header />
-      <Content>
-        <Switch>
-          <Route exact path="/" component={LandingPage} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/testPage" component={TestPage} />
-        </Switch>
-      </Content>
+      <Theme>
+        <Layout>
+          {/* <Section grid> */}
+          <Hero />
+          {/* <BgAnimation /> */}
+          {/* </Section> */}
+          <Projects />
+          <Technologies />
+          <Timeline />
+          <Acomplishments />
+        </Layout>
+      </Theme>
     </HttpsRedirect>
   );
 }
