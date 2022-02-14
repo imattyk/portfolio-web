@@ -15,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 
   //remove scrollbar
   scrollbar-width: none;
@@ -72,10 +72,6 @@ export const CarouselItemTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -132,7 +128,7 @@ export const CarouselButtons = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
-    margin-bottom: 48px;
+    margin-bottom: 0px;
   }
 `;
 
