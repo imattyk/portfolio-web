@@ -43,6 +43,7 @@ const Projects = () => (
         )
       )}
     </GridContainer>
+    <div className="spacer"></div>
   </Section>
 );
 
