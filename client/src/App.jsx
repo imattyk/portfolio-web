@@ -7,10 +7,11 @@ import Projects from "./components/Projects/Projects";
 import Technologies from "./components/Technologies/Technologies";
 import Timeline from "./components/TimeLine/TimeLine";
 import { Layout } from "./layout/Layout";
-import { Section } from "./styles/GlobalComponents";
+import { Section, SectionDivider } from "./styles/GlobalComponents";
 import Acomplishments from "./components/Acomplishments/Acomplishments";
 import BgAnimation from "./components/BackgrooundAnimation/BackgroundAnimation";
 import DoraVideo from "./components/Video/web_background_1.mp4";
+import { HashLink } from "react-router-hash-link";
 
 function App() {
   return (
@@ -19,8 +20,10 @@ function App() {
         <Layout>
           <video
             autoPlay
+            preload="auto"
             loop
             muted
+            id="bg_video"
             style={{
               position: "absolute",
               width: "100%",
@@ -33,9 +36,13 @@ function App() {
           >
             <source src={DoraVideo} type="video/mp4"></source>
           </video>
+          <HashLink to="/#nav">
+            <button class="kc_fab_main_btn">v</button>
+          </HashLink>
           <Section grid>
             <Hero />
             <BgAnimation />
+            <SectionDivider />
           </Section>
           <Timeline />
           <Technologies />
