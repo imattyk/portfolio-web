@@ -20,7 +20,6 @@ function App() {
         <Layout>
           <video
             autoPlay
-            preload="auto"
             loop
             muted
             id="bg_video"
