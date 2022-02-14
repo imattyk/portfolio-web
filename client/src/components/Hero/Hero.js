@@ -9,18 +9,18 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section id="hero" row nopadding>
     <LeftSection>
       <SectionTitle main center>
         Vitaj na mojom <br /> Video Portfóliu.
       </SectionTitle>
-      <SectionText>
+      <SectionText className="intro-text">
         Volám sa Matej Komlóši a rád točím videá. Pozri dole moju tvorbu a ak
         máš záujem spolupracovať kľudne napíš.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      {/* <Button onClick={() => (window.location = "https://google.com")}>
         Kontakt
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );

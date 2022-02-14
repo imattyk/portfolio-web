@@ -4,6 +4,7 @@ export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background-color: transparent;
   padding: 0rem;
+  margin-top: 2rem;
   list-style: none;
   display: flex;
   justify-content: space-between;

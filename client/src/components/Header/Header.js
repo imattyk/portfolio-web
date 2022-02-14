@@ -19,7 +19,7 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container style={{ alignItems: "center" }}>
+  <Container id="nav" style={{ alignItems: "center" }}>
     <Div1>
       <HashLink to="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
@@ -34,11 +34,11 @@ const Header = () => (
           <NavLink>Bio</NavLink>
         </HashLink>
       </li>
-      <li>
+      {/* <li>
         <HashLink to="#gear">
           <NavLink>Výbava</NavLink>
         </HashLink>
-      </li>
+      </li> */}
       <li>
         <HashLink to="#projects">
           <NavLink>Projekty</NavLink>

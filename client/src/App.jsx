@@ -11,6 +11,7 @@ import { Section, SectionDivider } from "./styles/GlobalComponents";
 import Acomplishments from "./components/Acomplishments/Acomplishments";
 import BgAnimation from "./components/BackgrooundAnimation/BackgroundAnimation";
 import DoraVideo from "./components/Video/web_background_1.mp4";
+import { HashLink } from "react-router-hash-link";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           >
             <source src={DoraVideo} type="video/mp4"></source>
           </video>
+          <HashLink to="/#nav">
+            <button class="kc_fab_main_btn">v</button>
+          </HashLink>
           <Section grid>
             <Hero />
             <BgAnimation />
