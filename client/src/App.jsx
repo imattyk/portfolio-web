@@ -24,7 +24,7 @@ function App() {
             loop
             muted
             id="bg_video"
-            poster="images/placeholder_bg.png"
+            poster="images/placeholder_bg.jpg"
             style={{
               position: "absolute",
               width: "100%",
