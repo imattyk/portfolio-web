@@ -67,28 +67,11 @@ const Timeline = () => {
     <Section id="bio">
       <SectionTitle>Bio</SectionTitle>
       <SectionText className="bio-text">
-        24 rokov, pracovne Web Developer, skoro absolvent FEI STU v Bratislave.
-        Pochádzam z Vrábel, malého mesta pri Nitre. Momentálne bývam v
-        Bratislave. <br />
-        Už od šiestich rokov, čo ma mamka posadila za gitaru na krúžku v škole
-        sa venujem hudbe. Klavír som začal na umeleckej škole od ôsmich, bicie
-        od trinástich a nejak som sa dostal aj ku spevu. Takto sa to nabaľovalo
-        až ku hudobnej produkcii a mixáži prvých pesničiek kapely Not Yet Awake
-        (nájdete ju na spotify/youtube). Toto bol môj život asi do minulého
-        roku, kedy som začal riešiť viac prácu a školu (diplomovú prácu).
-        Koncerty a hranie každý víkend nebolo to čo som hľadal a rozhodol som sa
-        toto hobby na chvíľu pozastaviť. Už dlhšie som sa pohrával s myšlienkou
-        robiť video, bavilo ma editovať fotky a hrať sa s farbami, tak to začalo
-        asi u viacerých. Keď som sa rozhodol konečne si kúpiť moju prvú Sony
-        kameru, objavil som další passion, ktorému som ihneď prepadol. Môj
-        proces hľadania sa v tomto svete začal hudbou a teraz pokračuje videom.
-        Nehovorím, že tu aj skončím, ale na teraz to je moja cesta. Momentálne
-        končím posledný semester vysokej školy, riešim prestup z brigádnika na
-        full-time a po víkendoch rád točím a strihám video. Veľká časť video
-        produkcie, ktorá ma zhltla, je samotné farbenie a color grade. Ako mi to
-        ide, môžeš pozrieť aj dole v projektoch. Ak tam toho moc nie je, znamená
-        že tu si dosť skoro, a ešte som toho veľa nestihol, tak vitaj :). <br />{" "}
-        Verím, že toho bude čoskoro viac.
+        Mám 24 rokov, absolvent FEI STU a som full time web developer. Vo voľnom
+        čase rád točím a strihám videá. Hudba bola pre mňa hlavným spôsobom
+        kreatívneho ventilovania, teraz to je video. Túto stránku som založil
+        ako malé portfólio kde môžem hádzať na jedno mieste moje hotové
+        projekty. Pozri ich nižšie a ak máš záujem o spoluprácu napíš mi.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
