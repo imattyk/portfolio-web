@@ -71,7 +71,7 @@ const Timeline = () => {
         čase rád točím a strihám videá. Hudba bola pre mňa hlavným spôsobom
         kreatívneho ventilovania, teraz to je video. Túto stránku som založil
         ako malé portfólio kde môžem hádzať na jedno mieste moje hotové
-        projekty. Pozri ich nižšie a ak máš záujem o spoluprácu napíš mi.
+        projekty.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
