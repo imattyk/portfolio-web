@@ -13,10 +13,7 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container
-    id="nav"
-    style={{ alignItems: "center", position: "fixed", zIndex: "2" }}
-  >
+  <Container id="nav" style={{ alignItems: "center" }}>
     <Div1>
       <HashLink to="#top">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
