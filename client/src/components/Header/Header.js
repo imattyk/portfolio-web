@@ -1,12 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { AiFillInstagram, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 
 import {
   Container,
@@ -19,12 +13,20 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container id="nav" style={{ alignItems: "center" }}>
+  <Container
+    id="nav"
+    style={{ alignItems: "center", position: "fixed", zIndex: "2" }}
+  >
     <Div1>
-      <HashLink to="/">
+      <HashLink to="#top">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <img src="/images/logo_mk_white.png" width="40" height="25" />{" "}
-          <Span>VideoPortfolio</Span>
+          <img
+            alt="Logo"
+            src="/images/logo_mk_white.png"
+            width="40"
+            height="25"
+          />{" "}
+          <Span>Matej Komlosi</Span>
         </a>
       </HashLink>
     </Div1>
