@@ -35,7 +35,7 @@ function App() {
           >
             <source src={DoraVideo} type="video/mp4"></source>
           </video>
-          <HashLink to="/#nav">
+          <HashLink to="/#top">
             <button class="kc_fab_main_btn">v</button>
           </HashLink>
           <Section grid>
