@@ -16,7 +16,7 @@ export const projects = [
       "Druhá spolupráca s chalanmi z kapely Dora. Tento krát sme kapelné zábery natáčali v kaštieli Esterházy Galanta a musím povedať, že sa velice vydarili. Ďakujem a teším sa na ďalšiu spoluprácu.",
     image: "/images/dora_nepovedz.jpg",
     tags: ["Kastiel", "Postel", "Hudba", "Dievca"],
-    source: "https://www.youtube.com/watch?v=Ku6UwPt9Ggg",
+    source: "https://www.youtube.com/watch?v=LJQhu35Kcbo",
     visit: "https://www.kapeladora.sk/",
     buttons: ["Youtube", "Kapela Dora"],
     id: 1,
