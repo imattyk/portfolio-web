@@ -37,7 +37,7 @@ export const projects = [
       "https://www.instagram.com/zakazany_pristup/",
       "https://www.youtube.com/watch?v=Ac_mwioimKM",
     ],
-    buttons: ["Youtube", "Kapela Zakazaný Prístup", "Behind the scenes"],
+    buttons: ["Youtube", "Kapela Zakázaný Prístup", "Behind the scenes"],
     id: 2,
   },
 ];
@@ -46,4 +46,5 @@ export const TimeLineData = [
   { year: 2021, month: 7, text: "Začiatok mojej cesty." },
   { year: 2022, month: 2, text: "Prvý videoklip." },
   { year: 2022, month: 5, text: "Afterky z študentských akcií." },
+  { year: 2022, month: 6, text: "Točenie prvej svadby." },
 ];
