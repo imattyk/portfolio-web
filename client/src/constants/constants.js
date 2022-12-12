@@ -44,5 +44,5 @@ export const projects = [
 export const TimeLineData = [
   { year: 2021, month: 7, text: "Začiatok mojej cesty." },
   { year: 2022, month: 2, text: "Prvý videoklip." },
-  { year: 2022, month: 5, text: "Afterky z študentskýčh akcií." },
+  { year: 2022, month: 5, text: "Afterky z študentských akcií." },
 ];
