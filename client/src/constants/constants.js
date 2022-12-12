@@ -21,8 +21,9 @@ export const projects = [
     urls: [
       "https://www.youtube.com/watch?v=LJQhu35Kcbo",
       "https://www.kapeladora.sk/",
+      "https://www.youtube.com/watch?v=9PyIbp2z6q4",
     ],
-    buttons: ["Youtube", "Kapela Dora"],
+    buttons: ["Youtube", "Kapela Dora", "Behind the scenes"],
     id: 1,
   },
   {
