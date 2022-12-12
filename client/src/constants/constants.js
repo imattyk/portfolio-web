@@ -9,7 +9,7 @@ export const projects = [
       "https://www.youtube.com/watch?v=Ku6UwPt9Ggg",
       "https://www.kapeladora.sk/",
     ],
-    buttons: ["Youtube", "Kapela Dora"],
+    buttons: ["Video", "Kapela Dora"],
     id: 0,
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
       "https://www.kapeladora.sk/",
       "https://www.youtube.com/watch?v=9PyIbp2z6q4",
     ],
-    buttons: ["Youtube", "Kapela Dora", "Behind the scenes"],
+    buttons: ["Video", "Kapela Dora", "Behind the scenes"],
     id: 1,
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
       "https://www.instagram.com/zakazany_pristup/",
       "https://www.youtube.com/watch?v=Ac_mwioimKM",
     ],
-    buttons: ["Youtube", "Kapela Zakázaný Prístup", "Behind the scenes"],
+    buttons: ["Video", "Kapela Zakázaný Prístup", "Behind the scenes"],
     id: 2,
   },
 ];
