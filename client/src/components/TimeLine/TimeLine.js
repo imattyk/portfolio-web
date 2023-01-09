@@ -70,7 +70,7 @@ const Timeline = () => {
         Mám 25 rokov, absolvent FEI STU a som full time web developer. Vo voľnom
         čase rád točím a strihám videá. Hudba bola pre mňa hlavným spôsobom
         kreatívneho ventilovania, teraz to je video. Túto stránku som založil
-        ako malé portfólio kde môžem hádzať na jedno mieste moje hotové
+        ako malé portfólio kde môžem hádzať na jedno miesto moje hotové
         projekty.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
