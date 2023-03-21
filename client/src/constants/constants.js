@@ -40,7 +40,7 @@ export const projects = [
   {
     title: "Origin Lost - Awakening",
     description:
-      "Djent a metal je môjmu srdcu veľmi blízky. Pri tomto projekte s kapelkou Origin Lost som sa teda cítil velice komfortne a okrem super spolupráce som si užil aj svkelú originálnu muziku a z toho čo som počul, ich nové EPčko ide rovno do mojho playlistu na spotify.",
+      "Djent a metal je môjmu srdcu veľmi blízky. Pri tomto projekte s kapelkou Origin Lost som sa teda cítil velice komfortne a okrem super spolupráce som si užil aj skvelú originálnu muziku a z toho čo som počul, ich nové EPčko ide rovno do mojho playlistu na spotify.",
     image: "/images/origin_lost.jpg",
     urls: [
       "https://www.youtube.com/watch?v=E8DW85RIXd4",
