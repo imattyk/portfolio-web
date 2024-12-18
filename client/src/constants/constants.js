@@ -75,9 +75,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, month: 7, text: "Začiatok mojej cesty." },
-  { year: 2022, month: 2, text: "Prvý videoklip." },
-  { year: 2022, month: 5, text: "Afterky z študentských akcií." },
-  { year: 2022, month: 6, text: "Točenie prvej svadby." },
-  { year: 2023, month: 1, text: "Klipy pokračujú." },
+  { year: 2021, month: 7, text: 'Prvá kamerka, Sony A6500.' },
+  { year: 2022, month: 2, text: 'Prvý videoklip.' },
+  { year: 2022, month: 5, text: 'Afterky zo študentských akcií.' },
+  { year: 2022, month: 6, text: 'Točenie prvej svadby.' },
+  { year: 2023, month: 1, text: 'Klipy pokračujú.' },
 ];
