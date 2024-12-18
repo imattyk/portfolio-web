@@ -51,8 +51,7 @@ export const projects = [
   },
   {
     title: 'Dora - Anička dušička',
-    description:
-      'Ďalší projektík s kapelou Dora, musím povedať, že tento klip sa podaril.',
+    description: 'Ďalší projektík s kapelou Dora.',
     image: '/images/anick_dusicka.jpg',
     urls: [
       'https://www.youtube.com/watch?v=3IO8u9utC6o',
@@ -60,6 +59,18 @@ export const projects = [
     ],
     buttons: ['Video', 'Kapela Dora'],
     id: 4,
+  },
+  {
+    title: 'As they rise - Truthocean',
+    description:
+      'Další djent skvost na ktorom som sa mohol podielať. Skvelá hudba zo slovenska, šikovní muzikanti a super náladička pri točení, to je celý recept a výsledok zhodnoťte sami.',
+    image: '/images/truthocean.jpg',
+    urls: [
+      'https://www.youtube.com/watch?v=7m9xblnY6Jk',
+      'https://astheyriseofficial.com//',
+    ],
+    buttons: ['Video', 'Kapela ATR'],
+    id: 5,
   },
 ];
 
