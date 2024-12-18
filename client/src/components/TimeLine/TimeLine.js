@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id="bio">
       <SectionTitle>Bio</SectionTitle>
       <SectionText className="bio-text">
-        Mám 25 rokov, absolvent FEI STU a som full time web developer. Vo voľnom
+        Mám 27 rokov, absolvent FEI STU a som full time web developer. Vo voľnom
         čase rád točím a strihám videá. Hudba bola pre mňa hlavným spôsobom
         kreatívneho ventilovania, teraz to je video. Túto stránku som založil
         ako malé portfólio kde môžem hádzať na jedno miesto moje hotové
